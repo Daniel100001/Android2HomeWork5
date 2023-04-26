@@ -21,7 +21,7 @@
         android:layout_width="200dp"
         android:layout_height="70dp"
         android:layout_marginTop="20dp"
-        android:text="gallery button"
+        android:text="@string/gallery_button"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="@+id/image_view"
         app:layout_constraintStart_toStartOf="@+id/image_view"

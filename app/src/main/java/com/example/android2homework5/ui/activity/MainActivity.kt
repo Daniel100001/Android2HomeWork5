@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private val permissionMedia = "image/*"
     private val pickImage = 100
-    private val check = false
 
     private val getContent = registerForActivityResult(ActivityResultContracts.GetContent()){
         binding.imageView.setImageURI(it)
